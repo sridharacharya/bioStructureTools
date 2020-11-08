@@ -4,7 +4,9 @@
 July 15 2020
 smalkaram@wvstateu.edu
 
-* Check the latest version of this script at github repo: https://github.com/sridharacharya/bioStructureTools/Structure.py
+* This script is mirrored from,
+* https://github.com/sridharacharya/bioStructureTools/blob/master/Structure.py
+* Check the latest version of this script at this repo
 
 Function: 
   This script
