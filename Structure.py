@@ -236,7 +236,6 @@ class Molecule(Atom):
         """
         Parse PDB file
         """
-        #https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/tutorials/pdbintro.html
         LINES={}
         CHAINS = {}
         RESNO={}
@@ -868,7 +867,6 @@ class Molecule(Atom):
     def write(self, FILE="output.pdb", changeAtomnos = False, lastAtomno = None, changeResna=False, newResname=None, changeResno=False, changeChainna=False, newResno=None, refPDB=None, newChainna=None):
         """
         write selected residues to file
-        Note: Even though there are several ways to renumber residues, and rename residue names and chain names, the way gromacs ignores these original identities makes it very complex to properly usethese methods. So it is advisable to just use the residue mappings rather than attempting to renumber or rename.
         """
         if self.id is None:
             self.id = "UNK"

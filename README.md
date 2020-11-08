@@ -2,10 +2,6 @@
 This repository contains some utilities to parse/edit/write biomolecular structure files (mainly PDB files)
 
 ### Structure.py 
-- * This script is mirrored from,
-- * https://github.com/sridharacharya/bioStructureTools/blob/master/Structure.py
-- * Check the latest version of this script at this repo
-
 - Takes a pdb file or pdb id as input
 - optionally adds hydrogens
 - writes user selected residue(s) including connect records to output file
