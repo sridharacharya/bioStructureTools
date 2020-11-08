@@ -1023,7 +1023,8 @@ def main(argv):
     for opt, arg in opts:
         if opt == '-h':
             print('Usage: Structure.py -i <pdb-id> or -f <pdb-file> -r <included resno> -x <excluded resno> -o <output-file-name>')
-            print('    Use option -s for summary')
+            print('    Use option -s for structure summary')
+            print('    -h for this help')
             sys.exit()
         elif opt in ("-s"):
             SUMMARY = arg
