@@ -18,6 +18,10 @@ Dependencies :
     openbabel (optional: for converting formats or adding hydrogens)
     PySimpleGUI (optional: if gui is used)
     biopython (optional: if pdb-ids are used)
+
+Issues :
+    The script is working but not completely error free.
+    Use at your own risk, with adequate checking of output
 '''
 
 
